@@ -1,0 +1,22 @@
+{
+  "name": "automationpractice-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^4.12.0"
+  },
+  "devDependencies": {
+    "@applitools/eyes-cypress": "^3.12.5",
+    "cypress-multi-reporters": "^1.4.0",
+    "mocha": "^8.0.1",
+    "mochawesome": "^6.1.1",
+    "mochawesome-merge": "^4.1.0",
+    "mochawesome-report-generator": "^5.1.0"
+  },
+  "scripts": {
+    "test": "cypress run --spec .\\cypress\\integration\\*.spec.js"
+  },
+  "author": "Jhonatan Lujan",
+  "license": "ISC"
+}
