@@ -20,7 +20,9 @@ apiKey: '',
 That's all to have this framework working, don't worry about the mail and pass it is fake so it does matter at all.
 
 npm install
+
 npx eyes-setup
 
 npx cypress open
+
 npm run test
